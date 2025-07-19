@@ -12,3 +12,9 @@ configuration/ldap/*
 !configuration/logging.py
 !configuration/plugins.py
 super-linter.log
+
+# Ignore all .env files in the root
+*.env
+
+# Not ignore ref.env files
+!ref*.env
